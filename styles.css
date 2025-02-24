@@ -1,0 +1,15 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #71c5ee;
+    touch-action: none; /* Prevents default touch behaviors */
+}
+
+#gameCanvas {
+    border: 1px solid black;
+}
